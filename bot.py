@@ -16,7 +16,7 @@ from fuzzywuzzy import fuzz, process
 if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 # --- НАСТРОЙКИ БОТА ---
-BOT_TOKEN = "8826844366:AAH4v8LZf0sA9DT39evipUcWCbtvu5giIrA" # Получите у @BotFather
+BOT_TOKEN = "" # Получите у @BotFather
 
 # --- ИНИЦИАЛИЗАЦИЯ OCR (как в вашем server.py) ---
 logging.basicConfig(level=logging.INFO)
